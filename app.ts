@@ -23,3 +23,14 @@ myAge=10;
 console.log(myAge);
 myAge='Age';
 console.log(myAge);
+
+//arrays//
+let hobbies=['cooking','driving'];
+console.log(hobbies[0]);
+console.log(hobbies[0],hobbies[1]);
+console.log(typeof hobbies);
+
+let hobbies2 : any[]=['Testing','Development'];
+hobbies2=[100,101];
+hobbies2=[10.2,10.5];
+console.log(hobbies2);
